@@ -38,7 +38,7 @@ for i, label in enumerate(labels):
 # Add labels and title
 plt.xlabel(f'First Linear Discriminant ({lda.explained_variance_ratio_[0]*100:.1f}%)')
 plt.ylabel(f'Second Linear Discriminant ({lda.explained_variance_ratio_[1]*100:.1f}%)')
-plt.title('LDA on Iris Dataset (2 Components)')
+plt.title('Linear Discriminant Analysis on Iris Dataset (2 Components)')
 plt.legend()
 plt.grid(True, alpha=0.3)
 
